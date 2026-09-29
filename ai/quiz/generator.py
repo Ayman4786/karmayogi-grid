@@ -48,4 +48,5 @@ def generate_quiz_question(
         "competency_id": competency_id,
         "level": level,
         "source_ids": source_ids,
+        "evidence_dimension": "KNOWLEDGE",
     }

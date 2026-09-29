@@ -1,0 +1,29 @@
+[
+  {
+    "question_id": "Q-SAMPLING-001",
+    "competency_id": "STAT.SAMPLING",
+    "level": "L3",
+    "expected_answer": "Stratified sampling",
+    "source_ids": [
+      "RES-SAMPLING-002"
+    ]
+  },
+  {
+    "question_id": "Q-SAMPLING-002",
+    "competency_id": "STAT.SAMPLING",
+    "level": "L3",
+    "expected_answer": "Sampling design",
+    "source_ids": [
+      "RES-SAMPLING-002"
+    ]
+  },
+  {
+    "question_id": "Q-SAMPLING-003",
+    "competency_id": "STAT.SAMPLING",
+    "level": "L4",
+    "expected_answer": "Design evaluation",
+    "source_ids": [
+      "RES-SAMPLING-004"
+    ]
+  }
+]

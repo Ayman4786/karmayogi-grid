@@ -1,0 +1,18 @@
+[
+  {
+    "query": "sampling fundamentals",
+    "relevant_ids": ["RES-SAMPLING-001"]
+  },
+  {
+    "query": "sampling methods",
+    "relevant_ids": ["RES-SAMPLING-001"]
+  },
+  {
+    "query": "sampling design",
+    "relevant_ids": ["RES-SAMPLING-002"]
+  },
+  {
+    "query": "survey sampling design",
+    "relevant_ids": ["RES-SAMPLING-002"]
+  }
+]

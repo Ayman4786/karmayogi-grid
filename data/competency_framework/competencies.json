@@ -1,0 +1,161 @@
+
+{
+  "framework": {
+    "id": "karmayogi-grid-official-statistics",
+    "name": "Karmayogi-Grid Official Statistics Competency Framework",
+    "version": "1.0.0",
+    "status": "prototype",
+    "description": "Prototype competency framework for Karmayogi-Grid. Competency levels and definitions require validation by relevant subject-matter experts."
+  },
+  "competencies": [
+    {
+      "id": "STAT.SAMPLING",
+      "name": "Sampling",
+      "domain": "Official Statistics",
+      "description": "The ability to understand, select, design, justify, and evaluate sampling approaches.",
+      "status": "prototype",
+
+      "levels": [
+        {
+          "id": "STAT.SAMPLING.L1",
+          "level": "L1",
+          "name": "Foundation",
+          "description": "Understand basic sampling terminology.",
+
+          "learning_objectives": [
+            "Understand basic sampling terminology.",
+            "Identify common sampling concepts.",
+            "Explain basic sampling terms."
+          ],
+
+          "knowledge_indicators": [
+            "Can explain basic sampling terminology.",
+            "Can identify basic sampling concepts."
+          ],
+
+          "observable_behaviours": [
+            "Uses basic sampling terminology correctly.",
+            "Distinguishes basic sampling concepts."
+          ],
+
+          "evidence_dimensions": [
+            "KNOWLEDGE"
+          ]
+        },
+
+        {
+          "id": "STAT.SAMPLING.L2",
+          "level": "L2",
+          "name": "Working",
+          "description": "Select an appropriate basic sampling method.",
+
+          "learning_objectives": [
+            "Understand common basic sampling methods.",
+            "Select an appropriate basic sampling method for a given situation.",
+            "Explain the basic reasoning behind the selected method."
+          ],
+
+          "knowledge_indicators": [
+            "Can describe common sampling methods.",
+            "Can identify when a basic sampling method is appropriate."
+          ],
+
+          "observable_behaviours": [
+            "Selects an appropriate basic sampling method.",
+            "Explains the basic reason for selecting the method."
+          ],
+
+          "evidence_dimensions": [
+            "KNOWLEDGE",
+            "APPLIED_REASONING"
+          ]
+        },
+
+        {
+          "id": "STAT.SAMPLING.L3",
+          "level": "L3",
+          "name": "Proficient",
+          "description": "Design and justify a sampling strategy.",
+
+          "learning_objectives": [
+            "Design a sampling strategy for a statistical use case.",
+            "Justify the selected sampling approach.",
+            "Consider relevant sampling design factors."
+          ],
+
+          "knowledge_indicators": [
+            "Demonstrates understanding of sampling design principles.",
+            "Explains the relationship between the sampling objective and selected design."
+          ],
+
+          "observable_behaviours": [
+            "Designs a sampling strategy.",
+            "Justifies the selected sampling approach.",
+            "Explains important design considerations."
+          ],
+
+          "evidence_dimensions": [
+            "KNOWLEDGE",
+            "APPLIED_REASONING",
+            "CASE_DESIGN",
+            "PRACTICAL_WORK"
+          ]
+        },
+
+        {
+          "id": "STAT.SAMPLING.L4",
+          "level": "L4",
+          "name": "Advanced",
+          "description": "Evaluate complex sampling designs and recommend improvements.",
+
+          "learning_objectives": [
+            "Evaluate complex sampling designs.",
+            "Identify limitations or weaknesses in sampling designs.",
+            "Recommend appropriate improvements."
+          ],
+
+          "knowledge_indicators": [
+            "Demonstrates advanced understanding of sampling design.",
+            "Can evaluate complex sampling approaches."
+          ],
+
+          "observable_behaviours": [
+            "Evaluates a complex sampling design.",
+            "Identifies potential design limitations.",
+            "Recommends improvements with justification."
+          ],
+
+          "evidence_dimensions": [
+            "KNOWLEDGE",
+            "APPLIED_REASONING",
+            "CASE_DESIGN",
+            "PRACTICAL_WORK"
+          ]
+        }
+      ]
+    }
+  ],
+
+  "evidence_dimensions": [
+    {
+      "id": "KNOWLEDGE",
+      "name": "Knowledge",
+      "description": "Evidence that the learner understands relevant concepts and terminology."
+    },
+    {
+      "id": "APPLIED_REASONING",
+      "name": "Applied Reasoning",
+      "description": "Evidence that the learner can apply concepts to a situation and explain the reasoning."
+    },
+    {
+      "id": "CASE_DESIGN",
+      "name": "Case / Design",
+      "description": "Evidence that the learner can design and justify an appropriate solution."
+    },
+    {
+      "id": "PRACTICAL_WORK",
+      "name": "Practical / Work",
+      "description": "Evidence that the learner can perform the relevant task in a realistic context."
+    }
+  ]
+}

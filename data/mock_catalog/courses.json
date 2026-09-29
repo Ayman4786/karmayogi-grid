@@ -1,0 +1,91 @@
+{
+  "catalog_version": "1.0.0",
+  "status": "prototype",
+  "resources": [
+    {
+      "id": "RES-SAMPLING-001",
+      "title": "Sampling Fundamentals",
+      "provider": "Prototype Catalogue",
+      "source_type": "VIDEO",
+      "competency_ids": ["STAT.SAMPLING"],
+      "levels": ["L1", "L2"],
+      "evidence_dimensions": ["KNOWLEDGE"],
+      "description": "Introduction to sampling terminology, populations, samples, sampling frames and basic sampling methods.",
+      "segments": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 420,
+          "title": "Sampling terminology"
+        },
+        {
+          "start_seconds": 421,
+          "end_seconds": 900,
+          "title": "Basic sampling methods"
+        }
+      ]
+    },
+    {
+      "id": "RES-SAMPLING-002",
+      "title": "Sampling Design and Justification",
+      "provider": "Prototype Catalogue",
+      "source_type": "VIDEO",
+      "competency_ids": ["STAT.SAMPLING"],
+      "levels": ["L3"],
+      "evidence_dimensions": [
+        "CASE_DESIGN",
+        "APPLIED_REASONING"
+      ],
+      "description": "Designing and justifying a sampling strategy for an official statistics use case.",
+      "segments": [
+        {
+          "start_seconds": 1930,
+          "end_seconds": 2505,
+          "title": "Sampling design case"
+        },
+        {
+          "start_seconds": 2506,
+          "end_seconds": 2925,
+          "title": "Justifying the design"
+        }
+      ]
+    },
+    {
+      "id": "RES-SAMPLING-003",
+      "title": "Practical Sampling Assessment",
+      "provider": "Prototype Catalogue",
+      "source_type": "CASE_STUDY",
+      "competency_ids": ["STAT.SAMPLING"],
+      "levels": ["L3", "L4"],
+      "evidence_dimensions": [
+        "CASE_DESIGN",
+        "PRACTICAL_WORK"
+      ],
+      "description": "Work-based case requiring the learner to design, justify and evaluate a sampling strategy.",
+      "segments": []
+    },
+    {
+      "id": "RES-SAMPLING-004",
+      "title": "Advanced Sampling Design",
+      "provider": "Prototype Catalogue",
+      "source_type": "PDF",
+      "competency_ids": ["STAT.SAMPLING"],
+      "levels": ["L4"],
+      "evidence_dimensions": [
+        "KNOWLEDGE",
+        "CASE_DESIGN",
+        "PRACTICAL_WORK"
+      ],
+      "description": "Advanced material covering evaluation of complex sampling designs and possible improvements.",
+      "segments": [
+        {
+          "page": 12,
+          "section": "Complex sampling designs"
+        },
+        {
+          "page": 18,
+          "section": "Design evaluation and improvement"
+        }
+      ]
+    }
+  ]
+}
